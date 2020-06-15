@@ -49,7 +49,7 @@ const App = () => {
       <GlobalStyle />
       <Container>
         <ScartterChart />
-        {/* <ScartterPlottyChart /> */}
+        <ScartterPlottyChart />
       </Container>
     </>
   )
