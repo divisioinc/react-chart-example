@@ -1,7 +1,7 @@
 import React from 'react'
 import styled, { createGlobalStyle } from 'styled-components'
 
-import ScartterChart from './ScartterChart'
+// import ScartterChart from './ScartterChart'
 import ScartterPlottyChart from './ScartterPlottyChart'
 
 const GlobalStyle = createGlobalStyle`
@@ -48,7 +48,7 @@ const App = () => {
     <>
       <GlobalStyle />
       <Container>
-        <ScartterChart />
+        {/* <ScartterChart /> */}
         <ScartterPlottyChart />
       </Container>
     </>
